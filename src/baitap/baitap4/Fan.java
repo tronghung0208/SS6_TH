@@ -57,6 +57,6 @@ public class Fan {
         String status = on ? "bật" : "tắt";
 
 
-        return "Quạt có: "+"\n Tốc độ " + speed + "\n Bán kính " + radius + "\n Màu " + color + "\n hiện đang " + status;
+        return "Quạt có: "+"\n Tốc độ " +this.speed + "\n Bán kính " + this.radius + "\n Màu " + this.color + "\n hiện đang " + status;
     }
 }

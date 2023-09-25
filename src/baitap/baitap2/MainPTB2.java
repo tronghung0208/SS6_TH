@@ -2,7 +2,7 @@ package baitap.baitap2;
 
 import java.util.Scanner;
 
-public class mainPTB2 {
+public class MainPTB2 {
     public static void main(String[] args) {
 
             System.out.println("Giải phương trình a*x^2 + b*x +c");

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887cb5cc-6ec3-4541-86ae-ad991eeaa978" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap1/baitap1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap1/Baitap1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap2/mainPTB2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap2/MainPTB2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap3/baitap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap3/Baitap3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap4/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap4/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap4/baitap4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap4/Baitap4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap5/baitap5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap5/Baitap5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baitap/baitap6/ListStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baitap/baitap6/ListStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chuanbi/baitap3/baitap3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chuanbi/baitap3/baitap3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Owner/Desktop/JAVA-CORE/SS5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +56,32 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.ListStudent">
+    <configuration name="Baitap3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitap.baitap3.Baitap3" />
+      <module name="SS6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baitap.baitap3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baitap5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitap.baitap5.Baitap5" />
+      <module name="SS6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baitap.baitap5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baitap.baitap6.ListStudent" />
       <module name="SS6" />
@@ -61,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baitap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chuanbi.baitap1.baitap1" />
+    <configuration name="MainBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luyentap.ra.book.MainBook" />
       <module name="SS6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chuanbi.baitap1.*" />
+          <option name="PATTERN" value="luyentap.ra.book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,38 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baitap4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.baitap4.baitap4" />
-      <module name="SS6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baitap.baitap4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="baitap.baitap1.baitap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.baitap1.baitap1" />
-      <module name="SS6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baitap.baitap1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ListStudent" />
-        <item itemvalue="Application.baitap4" />
-        <item itemvalue="Application.baitap.baitap1.baitap1" />
-        <item itemvalue="Application.baitap1" />
+        <item itemvalue="Application.Baitap5" />
+        <item itemvalue="Application.Baitap3" />
+        <item itemvalue="Application.MainBook" />
         <item itemvalue="Application.baitap3" />
       </list>
     </recent_temporary>
@@ -131,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695302820536</updated>
-      <workItem from="1695302821565" duration="35181000" />
+      <workItem from="1695302821565" duration="65891000" />
     </task>
     <servers />
   </component>

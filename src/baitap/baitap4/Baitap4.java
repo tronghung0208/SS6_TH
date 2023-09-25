@@ -1,6 +1,6 @@
 package baitap.baitap4;
 
-public class baitap4 {
+public class Baitap4 {
 
         public static void main(String[] args) {
             // Tạo một đối tượng Fan

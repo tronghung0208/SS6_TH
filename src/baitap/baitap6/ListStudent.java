@@ -14,14 +14,14 @@ public class ListStudent {
 
     public static void main(String[] args) {
 
-        Student student1 = new Student(1, "Trọng Hùng", 20, true, "Nghệ an");
-        Student student2 = new Student(2, "Phan Hùng", 21, true, "Yên Thành");
-        Student student3 = new Student(3, "Hùng Phan", 22, true, "Yên Thành");
-        Student student4 = new Student(4, "Trọng Phan", 23, true, "Kim Thành");
-        students[0] = student1;
-        students[1] = student2;
-        students[2] = student3;
-        students[3] = student4;
+//        Student student1 = new Student(1, "Trọng Hùng", 20, true, "Nghệ an");
+//        Student student2 = new Student(2, "Phan Hùng", 21, true, "Yên Thành");
+//        Student student3 = new Student(3, "Hùng Phan", 22, false, "Yên Thành");
+//        Student student4 = new Student(4, "Trọng Phan", 23, true, "Kim Thành");
+//        students[0] = student1;
+//        students[1] = student2;
+//        students[2] = student3;
+//        students[3] = student4;
         Scanner sc = new Scanner(System.in);
 
         int choice;
@@ -80,7 +80,7 @@ public class ListStudent {
         studentID = sc.nextInt();
         sc.nextLine();
         boolean isDuplicateId = false;
-        for (int i = 0; i < studentCount; i++) {
+        for (int i = 0; i < students.length; i++) {
             if (students[i] != null && students[i].getStudentID() == studentID) {
 
                 isDuplicateId = true;
@@ -104,6 +104,7 @@ public class ListStudent {
 
             if (studentCount < students.length) {
                 students[studentCount] = new Student(studentID, name, age, gender, address);
+                studentCount++;
             } else {
                 System.out.println("Danh sách học sinh đã đầy, không thể thêm mới.");
             }

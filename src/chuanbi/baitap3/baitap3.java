@@ -20,9 +20,5 @@ public class baitap3 {
         System.out.println(product2.toString());
         System.out.println(product3.toString());
         System.out.println(product4.toString());
-
-
-
     }
-
 }
